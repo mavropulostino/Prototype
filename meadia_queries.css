@@ -1,0 +1,29 @@
+@media (max-width: 1440px) {
+  .Home_Container {
+    flex-direction: column;
+  }
+  .Home_Text {
+    width: 1000px;
+  }
+  .Home_Text p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .Home_Image{
+    width: 900px;
+  }
+  .Home_Text {
+    width: 500px;
+  }
+  .Home_Text p {
+
+  }
+}

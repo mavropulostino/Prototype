@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 81px;
+  padding: 20px 100px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  border-bottom: 1px solid #999 ;
+  background: #fff;
+}
+
+.Logo_Wrapper {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #000;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.Logo_Image {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cfcdcd;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Logo_Image img {
+  width: 100%;
+  height: 100%;
+}
+
+.Navigation_Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.Navigation_Bar a {
+  text-align: center;
+  width: 80px;
+  height: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  transition: ease 250ms;
+}
+
+.Navigation_Bar a:hover {
+  scale: 1.05;
+}
+
+.Shopping_Cart {
+  background-color: #000;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: .5rem 1rem;
+  border-radius: 2px;
+  gap: 1rem;
+  margin-right: 50px;
+  cursor: pointer;
+  transition: ease 250ms;
+}
+
+.Shopping_Cart:hover {
+  scale: 1.05;
+}
+
+.Shopping_Text {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Inter", sans-serif;
+}
+
+.Shopping_Icon {
+  color: #fff;
+}
+
+
+
+
+
+.G1 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.G1_Container {
+  width: 1570px;
+  height: 1200px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.G1_Title_Container {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 70px;
+}
+
+.G1_Title_Container h1 {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.G1_Juice_Cards {
+  width: 100%;
+  height: 100%;
+}
+
+.G1_Juice_Card_1 {
+  width: 100%;
+  height: 53%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.G1_Juice_Card_2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.Juice_Card {
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+  background: #eeeef0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Description {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.Description h3 {
+  font-family: "Inter", sans-serif;
+  border-bottom: 1px solid #999;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.Description p {
+  font-family: "Inter", sans-serif;
+  padding: 5px 0;
+  font-size: 1.2rem;
+}
+
+.Juice_Card img {
+  width: 80%;
+  height: 100%;
+}
+
+
+
+
+
+
+.G2 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.G2_Container {
+  width: 1570px;
+  height: 1200px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Juice_Card h1 {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.G2_Juice_Cards {
+  width: 100%;
+  height: 100%;
+}
+
+.G2_Juice_Card_1 {
+  width: 100%;
+  height: 43%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.G2_Juice_Card_2 {
+  width: 100%;
+  height: 43%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+
+
+
+
+
+.Pre_Footer {
+  width: 100%;
+  min-height: 50vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 0.85;
+  border-bottom: 1px solid #999 ;
+}
+
+.Pre_Footer_Container {
+  width: 1570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Pre_Footer_Container h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.Pre_Footer_Container h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.Pre_Footer_Container a {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  transition: ease 250ms;
+}
+
+.Pre_Footer_Container a:hover{
+  scale: 1.05;
+}
+
+/* .Pre_Footer_Container img {
+margin-top: 40px;
+} */
+
+
+
+
+
+
+
+
+Footer {
+  width: 100%;
+  min-height: 50vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 0.85;
+}
+
+.Footer_Container {
+  width: 1570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Footer_Title_Container h1{
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.Footer_Links_Container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Footer_Navigation_Links {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.Footer_Navigation_Links h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.Footer_Navigation_Links ul {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.Footer_Navigation_Links a {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.Footer_Contact_Links {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.Footer_Contact_Links h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.Footer_Contact_Links ul {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.Footer_Contact_Links a {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.Footer_Container p {
+  margin-top: 100px;
+}
